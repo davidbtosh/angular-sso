@@ -10,6 +10,7 @@ import { ValuesService } from './services/values.service';
 })
 export class AppComponent {
   title = 'b2c-basic-app';
+  loginDisabled = false;
 
   values: string[];
 
@@ -22,6 +23,7 @@ export class AppComponent {
   }
 
   login() {
+    this.loginDisabled = true;
     this.msalService.login();
   }
 

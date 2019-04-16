@@ -11,7 +11,8 @@ export const environment = {
   signUpPolicy: 'B2C_1_EmailSignUp',
   redirectUri: 'http://localhost:4200',
   //b2cScopes: ['https://mtosh.onmicrosoft.com/api/user_impersonation', 'https://mtosh.onmicrosoft.com/api/api.read', 'https://mtosh.onmicrosoft.com/api/api.write'],
-  b2cScopes: ['https://mtosh.onmicrosoft.com/api/api.read'],
+  b2cScopes: ['https://mtosh.onmicrosoft.com/api/api.read', 'https://mtosh.onmicrosoft.com/api/api.write'],
+  //b2cScopes: ['https://mtosh.onmicrosoft.com/api/api.read'],
   webApi: 'http://localhost:63152/api',
 };
 
